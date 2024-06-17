@@ -1,0 +1,133 @@
+.gpt3__features {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 200px;
+    /*margin-left: 50px
+    margin-right: 100px;*/
+}
+
+.gpt3__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin: 5rem;
+
+}
+
+.gpt3__features-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 2rem;
+    margin-right: -400px;
+}
+
+.gpt3__features-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.gpt3__features-heading p:hover {
+    opacity: 0.7;
+    transition: all 0.16s ease-out;
+}
+
+
+.gpt3__features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30rem;
+    margin-right: 5rem;
+
+}
+@media screen and (max-width: 1500px) {
+    .gpt3__features-heading h1 {
+        font-size: 60px;
+        line-height: 65px;
+        margin-right: -300px;
+    }
+    
+}
+@media screen and (max-width: 1030px) {
+    .gpt3__features-heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-right: -10px;
+        margin-top: -75px;
+    }
+    .gpt3__features-heading p {
+        line-height: 20px;
+    }
+
+    .gpt3__features-container {
+        margin-left: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__features {
+        flex-direction: column;
+        margin-top: 135px;
+        /* margin-left: 125px;
+        margin-right: 100px; */
+    }
+
+    .gpt3__features-heading {
+        margin: 2 0 2rem 0;
+    }
+    .gpt3__features-heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+
+    .gpt3__features-heading p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .gpt3__features-container {
+        margin-left: 110px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-heading h1 {
+        font-size: 26px;
+        line-height: 35px;
+        margin-right: -80px;
+        margin-left: -70px;
+    }
+
+    .gpt3__features-heading p {
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+
+    .gpt3__features-container {
+        margin-left: 35px;
+        margin-right: -30px;
+    }
+}
+
