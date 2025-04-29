@@ -11,7 +11,7 @@ This project is a sample landing page for OpenAI, created to gain hands-on exper
 ![Screenshot 2024-06-17 105218](https://github.com/JeroldGomez/OpenAI-ReactJs-SampleWebsite/assets/106787297/140f94b4-07a9-405b-8cde-ba6dc078eacc)
 ![Screenshot 2024-06-17 105244](https://github.com/JeroldGomez/OpenAI-ReactJs-SampleWebsite/assets/106787297/cdf55848-7dc3-4121-8514-6436d6593312)
 
-
+<!--
 ### Getting Started
 
 To get a local copy up and running, follow these simple steps:
